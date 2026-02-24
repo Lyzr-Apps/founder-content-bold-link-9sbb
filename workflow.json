@@ -1,0 +1,56 @@
+{
+  "workflow": {
+    "nodes": [
+      {
+        "id": "input_node",
+        "type": "Input",
+        "label": "Founder Input",
+        "nodeCategory": "input"
+      },
+      {
+        "id": "content_creator",
+        "type": "Agent",
+        "label": "Content Creator",
+        "nodeCategory": "agent",
+        "agent_id": "699c8e86948869a40a159e90"
+      },
+      {
+        "id": "hashtag_generator",
+        "type": "Agent",
+        "label": "Hashtag Generator",
+        "nodeCategory": "agent",
+        "agent_id": "699c8e86dec8777541dad1da"
+      },
+      {
+        "id": "post_scheduler",
+        "type": "Agent",
+        "label": "Post Scheduler",
+        "nodeCategory": "agent",
+        "agent_id": "699c8e875e640bb8aab129db"
+      },
+      {
+        "id": "analytics_advisor",
+        "type": "Agent",
+        "label": "Analytics Advisor",
+        "nodeCategory": "agent",
+        "agent_id": "699c8e8790171ae9b4817d03"
+      },
+      {
+        "id": "output_node",
+        "type": "Output",
+        "label": "FounderPost Output",
+        "nodeCategory": "end"
+      }
+    ],
+    "edges": [
+      {"source": "input_node", "target": "content_creator"},
+      {"source": "input_node", "target": "hashtag_generator"},
+      {"source": "input_node", "target": "post_scheduler"},
+      {"source": "input_node", "target": "analytics_advisor"},
+      {"source": "content_creator", "target": "output_node"},
+      {"source": "hashtag_generator", "target": "output_node"},
+      {"source": "post_scheduler", "target": "output_node"},
+      {"source": "analytics_advisor", "target": "output_node"}
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "agent_name": "FounderPost Hashtag Generator",
+  "agent_id": "699c8e86dec8777541dad1da",
+  "description": "Social media hashtag strategist and optimizer. Generates platform-specific, high-performing hashtag sets that maximize content reach and engagement.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "platform": "string",
+    "hashtags": [
+      {
+        "tag": "string",
+        "category": "string",
+        "estimated_reach": "string"
+      }
+    ],
+    "hashtag_groups": [
+      {
+        "group_name": "string",
+        "tags": [
+          "string"
+        ]
+      }
+    ],
+    "strategy_notes": "string",
+    "trending_tags": [
+      "string"
+    ]
+  },
+  "example_response": {
+    "platform": "sample string",
+    "hashtags": [
+      {
+        "tag": "sample string",
+        "category": "sample string",
+        "estimated_reach": "sample string"
+      }
+    ],
+    "hashtag_groups": [
+      {
+        "group_name": "sample string",
+        "tags": [
+          "sample string"
+        ]
+      }
+    ],
+    "strategy_notes": "sample string",
+    "trending_tags": [
+      "sample string"
+    ]
+  }
+}

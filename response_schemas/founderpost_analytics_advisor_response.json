@@ -1,0 +1,62 @@
+{
+  "agent_name": "FounderPost Analytics Advisor",
+  "agent_id": "699c8e8790171ae9b4817d03",
+  "description": "Social media analytics expert and strategy optimizer. Analyzes engagement metrics and provides actionable recommendations to improve content strategy and social media performance.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "performance_summary": "string",
+    "top_performing_content": [
+      {
+        "content_type": "string",
+        "platform": "string",
+        "engagement_rate": "string",
+        "key_factors": "string"
+      }
+    ],
+    "recommendations": [
+      {
+        "area": "string",
+        "recommendation": "string",
+        "expected_impact": "string",
+        "priority": "string"
+      }
+    ],
+    "trend_analysis": "string",
+    "growth_opportunities": [
+      "string"
+    ],
+    "metrics_breakdown": {
+      "instagram": "string",
+      "linkedin": "string"
+    }
+  },
+  "example_response": {
+    "performance_summary": "sample string",
+    "top_performing_content": [
+      {
+        "content_type": "sample string",
+        "platform": "sample string",
+        "engagement_rate": "sample string",
+        "key_factors": "sample string"
+      }
+    ],
+    "recommendations": [
+      {
+        "area": "sample string",
+        "recommendation": "sample string",
+        "expected_impact": "sample string",
+        "priority": "sample string"
+      }
+    ],
+    "trend_analysis": "sample string",
+    "growth_opportunities": [
+      "sample string"
+    ],
+    "metrics_breakdown": {
+      "instagram": "sample string",
+      "linkedin": "sample string"
+    }
+  }
+}

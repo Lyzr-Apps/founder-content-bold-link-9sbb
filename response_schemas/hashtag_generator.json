@@ -1,0 +1,25 @@
+{
+  "agent_name": "FounderPost Hashtag Generator",
+  "agent_id": "699c8e86dec8777541dad1da",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "platform": "string",
+    "hashtags": [
+      {
+        "tag": "string",
+        "category": "string",
+        "estimated_reach": "string"
+      }
+    ],
+    "hashtag_groups": [
+      {
+        "group_name": "string",
+        "tags": ["string"]
+      }
+    ],
+    "strategy_notes": "string",
+    "trending_tags": ["string"]
+  }
+}

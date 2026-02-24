@@ -1,0 +1,32 @@
+{
+  "agent_name": "FounderPost Analytics Advisor",
+  "agent_id": "699c8e8790171ae9b4817d03",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "performance_summary": "string",
+    "top_performing_content": [
+      {
+        "content_type": "string",
+        "platform": "string",
+        "engagement_rate": "string",
+        "key_factors": "string"
+      }
+    ],
+    "recommendations": [
+      {
+        "area": "string",
+        "recommendation": "string",
+        "expected_impact": "string",
+        "priority": "string"
+      }
+    ],
+    "trend_analysis": "string",
+    "growth_opportunities": ["string"],
+    "metrics_breakdown": {
+      "instagram": "string",
+      "linkedin": "string"
+    }
+  }
+}

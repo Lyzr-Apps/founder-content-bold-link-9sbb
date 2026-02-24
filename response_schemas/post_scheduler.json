@@ -1,0 +1,33 @@
+{
+  "agent_name": "FounderPost Scheduler",
+  "agent_id": "699c8e875e640bb8aab129db",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "schedule": [
+      {
+        "day": "string",
+        "time": "string",
+        "platform": "string",
+        "content_type": "string",
+        "priority": "string",
+        "reasoning": "string"
+      }
+    ],
+    "weekly_summary": "string",
+    "platform_frequency": {
+      "instagram": "string",
+      "linkedin": "string"
+    },
+    "optimization_tips": "string",
+    "best_posting_windows": [
+      {
+        "platform": "string",
+        "day": "string",
+        "time_window": "string",
+        "engagement_level": "string"
+      }
+    ]
+  }
+}

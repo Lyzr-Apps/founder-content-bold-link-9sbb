@@ -1,0 +1,20 @@
+{
+  "agents": {
+    "content_creator": {
+      "agent_id": "699c8e86948869a40a159e90",
+      "name": "FounderPost Content Creator"
+    },
+    "hashtag_generator": {
+      "agent_id": "699c8e86dec8777541dad1da",
+      "name": "FounderPost Hashtag Generator"
+    },
+    "post_scheduler": {
+      "agent_id": "699c8e875e640bb8aab129db",
+      "name": "FounderPost Scheduler"
+    },
+    "analytics_advisor": {
+      "agent_id": "699c8e8790171ae9b4817d03",
+      "name": "FounderPost Analytics Advisor"
+    }
+  }
+}

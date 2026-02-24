@@ -1,0 +1,60 @@
+{
+  "agent_name": "FounderPost Scheduler",
+  "agent_id": "699c8e875e640bb8aab129db",
+  "description": "Social media scheduling strategist and calendar manager. Creates optimized posting schedules and content calendars that maximize engagement across Instagram and LinkedIn.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "schedule": [
+      {
+        "day": "string",
+        "time": "string",
+        "platform": "string",
+        "content_type": "string",
+        "priority": "string",
+        "reasoning": "string"
+      }
+    ],
+    "weekly_summary": "string",
+    "platform_frequency": {
+      "instagram": "string",
+      "linkedin": "string"
+    },
+    "optimization_tips": "string",
+    "best_posting_windows": [
+      {
+        "platform": "string",
+        "day": "string",
+        "time_window": "string",
+        "engagement_level": "string"
+      }
+    ]
+  },
+  "example_response": {
+    "schedule": [
+      {
+        "day": "sample string",
+        "time": "sample string",
+        "platform": "sample string",
+        "content_type": "sample string",
+        "priority": "sample string",
+        "reasoning": "sample string"
+      }
+    ],
+    "weekly_summary": "sample string",
+    "platform_frequency": {
+      "instagram": "sample string",
+      "linkedin": "sample string"
+    },
+    "optimization_tips": "sample string",
+    "best_posting_windows": [
+      {
+        "platform": "sample string",
+        "day": "sample string",
+        "time_window": "sample string",
+        "engagement_level": "sample string"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "agent_name": "FounderPost Content Creator",
+  "agent_id": "699c8e86948869a40a159e90",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "post_content": "string",
+    "platform": "string",
+    "content_format": "string",
+    "hook_line": "string",
+    "call_to_action": "string",
+    "suggested_posting_time": "string",
+    "carousel_slides": ["string"],
+    "tone_notes": "string",
+    "content_tips": "string"
+  }
+}
